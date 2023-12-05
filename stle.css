@@ -1,0 +1,58 @@
+body{
+    background-color: #546D64;
+}
+.nav{
+    position: sticky;
+    top:3px;
+    background-color:#AF8C58;
+    list-style: none;
+    height: 100px;
+    padding: 0px;
+    border-radius: 5px;
+    border:hidden;
+    
+   
+}
+.nav li{
+    color: rgba(9, 105, 6, 0.439);
+    display: inline-block;
+    padding:20px;
+    font-size: 25px;
+    font-family: "Arial Black",Gadget,sans-serif;
+    bottom: 50px;
+    text-decoration: none;
+    
+}
+.nav li:hover{
+    background-color: rgba(6, 175, 175, 0.7);
+    height: 30px;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform:translateX(-50%)
+}
+.g{
+    float:left;
+    
+}
+.a{
+    float:right;
+    margin-right: 200px;
+}
+.imagine{
+    height: 600px;
+    width:1500px;
+    margin-top: 0mm;
+}
+.card{
+    background-color: #28231A;
+    margin-bottom: 36px;
+    box-shadow: 4px 14px 20px 5px rgba(0,0,0,0.8);
+    overflow: hidden;
+    padding: 8px;
+    border-radius: 13%;
+    height: 400px;
+    width: 400px;
+}
