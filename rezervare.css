@@ -7,17 +7,16 @@ body {
        padding-box              /* origin */
        content-box              /* clip */
        rgb(9, 155, 40);   
-       margin: 0;
-  width: 100%;
-  overflow: hidden;                  /* color */
+       background-size: 100%;  
+                    /* color */
   }
 .nu{
     width:430px;
     height: 350px;
     border-radius: 6%;
-    margin-left:70px;
+    margin-left:180px;
     display: inline-block;
-    margin-top: 50px ;
+    margin-top: 20px ;
 }
 
 .wrapper{
@@ -111,21 +110,24 @@ body {
     display: inline-block;
 }
 .ju{
-    width: 800px;
-    text-decoration:double;
+    width: 500px;
     padding:5px;
     font-size: 20px;
     bottom: 150px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    color: #fff;
     float: right;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-right: 150px;
+    font-style: oblique;    
+    text-align: center;
+    margin-bottom: 50px;
 } 
 .animate-charcter
 {
     font-style: normal;
-    margin-left:450px;
+    margin-left:400px;
     margin-top:0px;
+    text-align: start;
     font-family: "Lucida Console", "Courier New", monospace;
     
    position: inherit;
@@ -154,51 +156,23 @@ body {
     background-position: 200% center;
   }
 }
-.rr{
-    margin-top: 50px;
-    font-size: 30px;
-    font-style: oblique;
-    margin-left: 30px;
-    display: inline-flex;
-    color: #fff;
-
-
-}
-.ff{
-    width: 500px;
-    color: #fff;
-    margin-top: 20px;
-    font-size: 20px;
-    font-style: oblique;
-    margin-left: 30px;
-    display: inline-flex;
-}
-.ff2{
-    width: 500px;
-    margin-top: 0px;
-    font-size: 20px;
-    font-style: oblique;
-    margin-left: 30px;
-    color: #fff;
-    
-}
 .card0{
-    background-color:aliceblue;
-    width: 300px;
-    height: 350px;
+    background-color: rgb(49, 137, 39);
+    width: 220px;
+    height: 250px;
      margin-top: 50px ;
-    margin-right: 200px;
+    margin-right: 60px;
     font-display: initial;
     display: inline-block;
     border-radius: 10px;
-    margin-left: 300px;
+    margin-left:300px;
     
     
 }
 .card2{
-    background-color: aliceblue;
-    width: 300px;
-    height: 350px;
+    background-color: rgb(49, 137, 39);
+    width: 220px;
+    height: 250px;
     font-display: initial;
     display: inline-block;
     margin-right: 60px;
@@ -208,39 +182,19 @@ body {
 }
 .card99{
     border-radius: 10px;
-    background-color: aliceblue;
-    width: 300px;
-    height: 350px;
-    font-display: initial;
-    display: inline-block;
-    margin-right: 200px;
-    margin-left: 300px;
-    margin-top: 50px;
-    
-    
-}
-.car{
-    border-radius: 10px;
-    background-color: aliceblue;
-    width: 300px;
-    height: 350px;
+    background-color: rgb(49, 137, 39);
+    width: 220px;
+    height: 250px;
     font-display: initial;
     display: inline-block;
     margin-right: 60px;
+    
+    
 }
+.mapouter{
+    margin-top: 40px;
+    margin-left: 100px;
 
-.r22{
-    
-    border-radius: 25%;
-    height: 200px;
-    width: 300px;
-    margin-top: 100px;
-    margin-left: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-display: inherit;
-    font-size: large;
-    font-style: oblique;
-    
 }
 .l3{
     color: #0B2559;
@@ -252,12 +206,28 @@ body {
     text-decoration: none;
     background-color: #00ff9d;
     margin-top: 40px;
+    margin-left: 250px;
 }
-.camea{
-    position: relative;
-    margin-top: 100px;
-    margin-left: 60px;
-    font-size: large;
-    font-style: oblique;
+.iu{
+   color: #fff;
+   font-size: x-large;
+   display: inline-block;
+   
+   text-align: center;
+   
 }
+.iu2{
+    margin-left: 250px;
+    color: #fff;
+   font-size: x-large;
+   display: inline-block;
+   
+   text-align: center;
+}
+
+
+
+
+
+
 
