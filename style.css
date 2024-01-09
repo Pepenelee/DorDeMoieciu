@@ -28,7 +28,7 @@ body {
     border-radius: 0%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 300px;
+    margin: 0 auto;
     
 }
 .card{
@@ -63,7 +63,7 @@ body {
     border-radius: 5px;
     border:hidden;
     width: 849px;
-    margin-left: 300px;
+    margin: 0 auto;
     
    
 }
@@ -125,12 +125,13 @@ body {
 .animate-charcter
 {
     font-style: normal;
-    margin-left:400px;
+    margin: 0  auto;
     margin-top:0px;
-    text-align: start;
+    margin-left: 25%;
+    
     font-family: "Lucida Console", "Courier New", monospace;
     
-   position: inherit;
+   
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
@@ -227,6 +228,7 @@ body {
 .bu{
     height: 100px;
 }
+
 
 
 

@@ -28,7 +28,7 @@ body {
     border-radius: 0%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 300px;
+    margin: 0 auto;
     
 }
 .card{
@@ -63,7 +63,7 @@ body {
     border-radius: 5px;
     border:hidden;
     width: 849px;
-    margin-left: 300px;
+    margin: 0 auto;
     
    
 }
@@ -125,12 +125,13 @@ body {
 .animate-charcter
 {
     font-style: normal;
-    margin-left:400px;
+    margin: 0  auto;
     margin-top:0px;
-    text-align: start;
+    margin-left: 25%;
+    
     font-family: "Lucida Console", "Courier New", monospace;
     
-   position: inherit;
+   
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
@@ -147,7 +148,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: inline-block;
+  display: flex;
       font-size: 80px;
 }
 
@@ -224,6 +225,28 @@ body {
    
    text-align: center;
 }
+.bu{
+    height: 100px;
+}
+@media only screen and (max-width: 1000px) {
+    .animate-charcter {
+        margin-left: 15%;
+      font-size: 80px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .animate-charcter {
+      font-size: 70px;
+      margin-left: 14%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .animate-charcter {
+      font-size: 50px;
+      display: flexbox;
+      
+    }
+  }
 
 
 
