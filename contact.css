@@ -20,7 +20,7 @@ body {
 }
 
 .wrapper{
-    
+    width: 800px;
     margin-top: 0px;
     background-color: rgba(3, 154, 121, 0.594);
     overflow: hidden;
@@ -148,7 +148,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: flex;
+  display: inline-block;
       font-size: 80px;
 }
 
